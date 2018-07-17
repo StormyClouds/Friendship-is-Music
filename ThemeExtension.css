@@ -1,0 +1,291 @@
+/* Created By Stormy Clouds */
+#playback {
+    z-index: 6;
+}
+.room-background {
+    display: none;
+}
+#app {
+    background: url("http://i.imgur.com/GzN4wum.jpg") fixed center center / cover !important;
+}
+
+#avatars-container::before {
+    content: url(http://i.imgur.com/NKrbZnD.png);
+    position: absolute;
+    bottom: -60px;
+    left:90px;
+    z-index: 2;
+}
+#room-bar .icon-room {
+	background: url(http://i.imgur.com/BiJ93q4.gif);
+}
+#room-bar .bar-value{
+	color: #000;
+}
+#room-name {
+	text-shadow: 1px 2px 0px #008FE8
+}
+#room-host {
+	opacity: 0.5;
+}
+#room-host:hover {
+	opacity: 1;
+	cursor: help;
+}
+/*Headers*/
+.icon-chat-ambassador + span {
+	color: #00FF6E;
+}
+.group.host {
+	color: #00D8BF;
+}
+.icon-chat-host {
+	background: url(https://i.imgur.com/4O2bpFE.png);
+}
+.icon-chat-host + span {
+	color: #00D8BF !important;
+}
+.groupe.cohost {
+	color: #35B7FD;
+}
+.icon-chat-cohost {
+	background: url(http://i.imgur.com/AHw4sjR.png);
+}
+.icon-chat-cohost + span {
+	color: #35B7FD !important;
+}
+.group.manager {
+    color: #6600FF;
+}
+.icon-chat-manager {
+    background: url(https://i.imgur.com/ftFd7uo.png);
+}
+.icon-chat-manager + span {
+	color: #6600FF !important;
+}
+.group.bouncer {
+	color: #9933FF;
+}
+.icon-chat-bouncer {
+	background: url(https://i.imgur.com/0yBcyTs.png);
+}
+.icon-chat-bouncer + span {
+	color: #9933FF !important;
+}
+.group.dj {
+	color: #FF00FF;
+}
+.icon-chat-dj {
+	background: url(https://i.imgur.com/YSzVs24.png);
+}
+.icon-chat-dj + span {
+	color: #FF00FF !important;
+}
+.icon.icon-chat-subscriber {
+	background: url(https://i.imgur.com/WUkdVqo.png);
+}
+.icon.icon-chat-subscriber + span {
+	color: #ECBE04;
+}
+.icon.icon-chat-silver-subscriber {
+	background: url(https://i.imgur.com/NUrJJJv.png) ;
+}
+.icon.icon-chat-silver-subscriber + span.name {
+	color: #F0F0F0 !important;
+}
+.is-subscriber.silver .name {
+	color: #F0F0F0 !important;
+}
+#chat .from .un {
+	color: #FFF;
+}
+#waitlist .user {
+	color: #42A5DC;
+}
+/* Transparence */
+#app-menu.in-room {
+	background-color: rgba(0, 0, 0, 0.30);
+}
+.app-header {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#history-button {
+	background-color: rgba(0, 0, 0, 0.50);
+	border-right: 1px solid black;
+}
+#rs-skip-button {
+	background-color: rgba(0,0,0,0.3) !important; 
+	border-right: 1px solid black;
+}
+#chat .cm:nth-child(2n+1){
+    background: #000; !important
+}
+.app-right {
+	background: #002136 !important;
+}
+#chat-input {
+	border-radius: 13px;
+}
+.friends {
+	background: rgba(0,0,0,0.00) !important;
+}
+#room-settings {
+	background: rgba(0, 0, 0, 0.90);
+}
+#footer-user .info.showing {
+	background-color: rgba(0, 0, 0, 0.90);
+}
+#footer {
+	background-color: #00376E;
+}
+#dj-button {
+	background: rgba(0, 0, 0, 0.3); none repeat scroll 0 0;
+}
+#playlist-panel {
+	background: rgba(0, 0, 0, 0.70);
+}
+#playlist-menu {
+	background: rgba(0, 0, 0, 0.50);	
+}
+/* Correction transparence */
+#app-menu.in-room.open {
+	background-color: #1c1f25;
+}
+/*Header Colors*/
+
+.header-panel-button {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid black;
+}
+#waitlist-button.header-panel-button{
+    background-color: rgba(253, 246, 175, 0.1)
+}
+#friends-button.header-panel-button{
+    background-color: rgba(98, 188, 77, 0.1)
+}
+#users-button.header-panel-button{
+    background-color: rgba(243, 112, 51, 0.1)
+}
+#chat-button.header-panel-button{
+    background-color: rgba(238, 65, 68, 0.1)
+}
+#waitlist-button.header-panel-button.selected{
+    background-color: rgba(253, 246, 175, 0.5)
+}
+#friends-button.header-panel-button.selected{
+    background-color: rgba(98, 188, 77, 0.5)
+}
+#users-button.header-panel-button.selected{
+    background-color: rgba(243, 112, 51, 0.5)
+}
+#chat-button.header-panel-button.selected{
+    background-color: rgba(238, 65, 68, 0.5)
+}
+.header-panel-button.selected {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#chat-header {
+	background-color: #0000
+}	
+#user-lists .header {
+	background-color: #071400;
+}
+#waitlist .header {
+	background-color: #0a0a0a;
+}
+.friends .list-header {
+	background-color: #0a0a0a;
+}
+#rcs-menu .header {
+	background-color: #0a0a0a;
+}
+/*Custom Badges*/
+#chat .fromID-6154457 .bdg {
+    background-image: url(http://i.imgur.com/ZnJXd2q.png);
+
+/* Modif Menu Rcs */
+#rcs-found-update {
+	color: #FF0027;
+}
+#rcs-group-mf {
+	color: #FF0027;
+}
+#rcs-group-cn {
+	color: #FF0027;
+}
+#rcs-group-s {
+	color: #FF0027;
+}
+#rcs-group-c {
+	color: #FF0027;
+}
+#rcs-group-m {
+	color: #FF0027;
+}	
+#rcs-menu-container .group {
+	color: #FF0027;
+}
+#rcs-appright-button {
+	opacity: 0.7;
+	transition: opacity 1s;
+}
+#rcs-appright-button:hover {
+	opacity: 1;
+}
+#rcs-appright-button.header-panel-button.selected {
+	opacity: 1;
+}
+/* --- */
+#chat .delete-button, .rcs-delete {
+	border-radius: 4px;
+	background: linear-gradient(hsl(0,0%,30%), hsl(0,0%,40%));
+}
+#chat .delete-button:hover, .rcs-delete:hover {
+	background: linear-gradient(hsl(179,100%,50%), hsl(189,100%,50%));
+	box-shadow: 0 0 10px hsl(189,100%,50%);
+	color: black;
+}
+#chat-input {
+	box-shadow: 0px 0px 15px 0px rgba(0,249,180,0.5);
+	transition: box-shadow 1s; 
+}
+#chat-input:hover {
+	box-shadow: 0px 0px 15px 0px rgba(0,249,180,0.95)
+}
+#chat-input.focused {
+	box-shadow: 0px 0px 15px 0px rgba(0,249,180,0.95) !important;
+}
+#footer-user .buttons .button .count, #user-menu .item .count, #friends-button .request-count, #user-friends .tab-menu button .count, .app-right .friends .header i{
+	background: #0000 none repeat scroll 0 0;
+}
+#user-menu .item.selected {
+	background: #32234c none repeat scroll 0 0 !important;
+}
+#dj-button .left {
+	border-radius: 5px;
+}
+#meh { display: none 
+}
+#meh, #grab, #woot {
+	border-radius: 15px;
+}
+#app-menu .button i:after {
+	opacity: 0;
+}
+.icon.icon-twitter-selected, .icon.icon-facebook-selected, .icon.icon-chat-sound-on, .icon.icon-chat-sound-off, .icon.icon-emoji-on, .icon.icon-emoji-off, .icon.icon-timestamps-24, .icon.icon-timestamps-off, .icon.icon-timestamps-12, .icon.icon-mention-off, .icon.icon-mention, .icon.icon-radiant-clearchat, #room-bar .icon.icon-grab, #room-bar .icon.icon-star-white                                    
+{
+	transition: transform 3s;
+	transform: rotate(360deg)
+}
+#chat .text a:hover {
+	color: #19aeec;
+}
+/* Test */
+/* -CSS- */
+/*
+#room-name .bar-value {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+*/
