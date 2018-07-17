@@ -1,0 +1,45 @@
+{
+    "room": "Friendship is Music",
+    "author": "Stormy Clouds",
+    "icon": "https://i.imgur.com/BiJ93q4.gif",
+    "css": "https://dl.dropboxusercontent.com/s/rdwge8h7jn31mou/FiMusicExtension.css?dl=0",
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": false,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": true,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": "#CCFF00",
+        "ambassador": "#00FF6E",
+        "host": "#00D8BF",
+        "cohost": "#35B7FD",
+        "manager": "#6600FF",
+        "bouncer": "#9933FF",
+        "rdj": "#FF00FF",
+        "subscriber": "#ECBE04",
+        "silversubscriber": "#F0F0F0",
+        "friend": "#77AF6D",
+        "user": "#B1B1B1"
+    },
+    "images": {
+        "background": "https://i.imgur.com/GzN4wum.png",
+        "playback": "https://i.imgur.com/cGzybO0.png",
+        "admin": "https://i.imgur.com/JFsn5HY.png",
+        "ambassador": "https://i.imgur.com/QHZ2cP3.png",
+        "host": "https://i.imgur.com/4O2bpFE.png",
+        "cohost": "https://i.imgur.com/AHw4sjR.png",
+        "manager": "https://i.imgur.com/ftFd7uo.png",
+        "bouncer": "https://i.imgur.com/0yBcyTs.png",
+        "rdj": "https://i.imgur.com/YSzVs24.png",
+        "subscriber": "https://i.imgur.com/WUkdVqo.png",
+        "silversubscriber": "https://i.imgur.com/NUrJJJv.png"
+    },
+    "autocomplete": [],
+    "emotes": {
+    }
+}
