@@ -1,0 +1,45 @@
+{
+    "room": "Blank",
+    "author": "Blank",
+    "icon": "http://i.imgur.com/ZH7NLfR.jpg",
+    "css": "https://dl.dropboxusercontent.com/s/7qq0oo44ko6biye/Crazytheme.css?dl=0",
+    "rules": {
+        "allowAutorespond": false,
+        "allowAutowoot": false,
+        "allowAutojoin": false,
+        "allowAutograb": false,
+        "allowSmartVote": false,
+        "allowEmotes": false,
+        "allowShowingMehs": false,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": "#000000",
+        "ambassador": "#000000",
+        "host": "#000000",
+        "cohost": "#000000",
+        "manager": "#000000",
+        "bouncer": "#000000",
+        "rdj": "#000000",
+        "subscriber": "#000000",
+        "silversubscriber": "#000000",
+        "friend": "#000000",
+        "user": "#000000"
+    },
+    "images": {
+        "background": "https://i.imgur.com/ZH7NLfR.jpg",
+        "playback": "http://i.imgur.com/Y2jN9VM.gif",
+        "admin": "https://i.imgur.com/ZH7NLfR.jpg",
+        "ambassador": "https://i.imgur.com/ZH7NLfR.jpg",
+        "host": "https://i.imgur.com/ZH7NLfR.jpg",
+        "cohost": "https://i.imgur.com/ZH7NLfR.jpg",
+        "manager": "https://i.imgur.com/ZH7NLfR.jpg",
+        "bouncer": "https://i.imgur.com/ZH7NLfR.jpg",
+        "rdj": "https://i.imgur.com/ZH7NLfR.jpg",
+        "subscriber": "https://i.imgur.com/ZH7NLfR.jpg",
+        "silversubscriber": "https://i.imgur.com/ZH7NLfR.jpg"
+    },
+    "autocomplete": [],
+    "emotes": {
+    }
+}
